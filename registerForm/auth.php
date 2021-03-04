@@ -48,15 +48,13 @@
                             <div class="form-group">
                                 <label for="password">Password</label>
                                 <input name="password" type="password" class="form-control" id="password"  placeholder="*********" required>
-                            </div>
-                                            
+                            </div>                                           
                            <div class="d-grid gap-2">
                                 <button type="submit" class="btn btn-primary mt-2" name="btnLogin" id="submit">Submit form</button>
                             </div>
                         </form>
                     </div>
-                </div>
-                
+                </div>                
             </div>
             <div class="col"></div>
         </div>

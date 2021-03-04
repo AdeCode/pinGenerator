@@ -1,14 +1,3 @@
-<?php 
-    session_start();
-    $name = $matricNo = $email = $faculty = "";
-    if(isset($_POST['btnSubmit']))
-    {
-        $_SESSION['name'] = $_POST["name"];
-        $_SESSION['matricNo'] = $_POST["matricNo"];
-        $_SESSION['email'] = $_POST["email"];
-        $_SESSION['password'] = $_POST["password"];
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,27 +45,7 @@
             </div>
             <div class="col"></div>
         </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col">
-                <!-- <div class="card mt-2">
-                    <?php 
-                        if(isset($_POST['btnSubmit']))
-                        {
-                            echo "<div class='card-header'>Your inputs are as follows:</div>
-                            <div class='card-body'>
-                            Name: ".$name."<br>
-                            Matric No: ".$matricNo."<br>
-                            Email: ".$email."<br>
-                            Faculty: ".$faculty."<br>
-                            </div>";
-                        }
-                        ?>                   
-                </div>                 -->
-            </div>
-            <div class="col"></div>
-
-        </div>
+        
     </div>
 </body>
 </html>
